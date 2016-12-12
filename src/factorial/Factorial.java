@@ -2,21 +2,18 @@
 package factorial;
 
 
+
 public class Factorial {
-
-
-    public static void main(String[] args) {
-
-
-    int j;
-    int f;
-
-  
-   j = 8;    
-   
-
     
-   int i;
+    public static int calculofor(int numfor, int factorial){
+        // Creamos un metodo para calcular el for
+        
+         for (int i = numfor; i >= 1; i--) 
+                factorial = factorial * i;
+         
+         return factorial;
+    }
+     int i;
    if (j == 0)
 f = 1;
    else
@@ -35,4 +32,5 @@ System.out.println(f);
 
     }
     
+
 }
